@@ -24,25 +24,25 @@
   .right {
     display: flex;
     flex-direction: column;
-    background-color: floralwhite;
+    background-color: rgb(241, 239, 239);
     width: 65vw;
   }
 
   .first {
-    height: 30vh;
+    height: 25vh;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     margin-left: 5%;
-    margin-bottom: 1%;
-
+    margin-top: 15%;
+    font-size: 15px;
   }
 
   .second {
     height: 33vh;
     background-color: white;
     align-items: center;
-    box-shadow: 2px 5px #E5E7EB;
+    box-shadow: 2px 5px rgb(56, 56, 56);
   }
 
   .main-form-div {
@@ -51,6 +51,8 @@
     margin-left: 50px;
     width: 60%;
     justify-content: space-between;
+    font-size: 6px;
+    font-weight: bold;
   }
 
   .form-div {
